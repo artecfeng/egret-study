@@ -30,6 +30,8 @@ var Main = (function (_super) {
         var bird = new egret.Bitmap(bmd);
         bird.x = 100;
         bird.y = 100;
+        bird.width = 100;
+        bird.height = 200;
         this.addChild(bird);
         /*** 本示例关键代码段结束 ***/
         /// 为定位设置基准点(即锚点)
